@@ -1,0 +1,6 @@
+{
+    "bucket": "model-deployment-example-ps-v1",
+    "region": "us-west-2",
+    "model_output_prefix": "model_output",
+    "log_output_prefix": "log_output"
+}

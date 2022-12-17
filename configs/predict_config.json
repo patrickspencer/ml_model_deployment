@@ -1,0 +1,13 @@
+{
+    "predict_data_input": "data/score.csv",
+    "predict_model_pickle_file": "model_output/model_0.0.1_2022-12-05T20:01:30.735306.pkl",
+    "predict_logs_output_folder": "log_output",
+    "aws": {
+        "bucket": "model-deployment-example-ps-v1",
+        "region": "us-west-2",
+        "model_output_prefix": "model_output",
+        "log_output_prefix": "log_output",
+        "model_file": "model_0.0.1_2022-12-06T04:01:59.135586.pkl",
+        "batch_input_data": "input_data/score.csv"
+    }
+}

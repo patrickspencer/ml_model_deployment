@@ -1,0 +1,22 @@
+{
+    "training_data_input": "data/train.csv",
+    "training_model_output_folder": "model_output",
+    "training_logs_output_folder": "log_output",
+    "training_model_output_version": "0.0.1",
+    "aws": {
+        "bucket": "model-deployment-example-ps-v1",
+        "region": "us-west-2",
+        "model_output_prefix": "model_output",
+        "log_output_prefix": "log_output"
+    },
+    "model_params": {
+        "max_iter": 10000,
+        "random_state": 1337,
+        "penalty": "l2",
+        "dual": false,
+        "C": 1.0,
+        "tol": 1e-4,
+        "solver": "lbfgs",
+        "multi_class": "auto"
+    }
+}
